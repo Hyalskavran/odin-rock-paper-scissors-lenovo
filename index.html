@@ -4,8 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="top">
+        <div class="title">
+            <h1>Rock Paper Scissors</h1>
+            <h4>Game</h4>
+            <p>Play 5 rounds of Rock Paper Scissors game with the computer and see who wins!</p>
+        </div>
+        <div class="choices">
+            <div class="rock-block">
+                <img src="img/stone.png" alt="">
+                <h2>Rock</h2>
+                <button class="choice" id="rock-btn">Choose</button>
+            </div>
+            <div class="paper-block">
+                <img src="img/seal.png" alt="">
+                <h2>Paper</h2>
+                <button class="choice" id="paper-btn">Choose</button>
+            </div>
+            <div class="scissors-block">
+                <img src="img/scissor.png" alt="">
+                <h2>Scissors</h2>
+                <button class="choice" id="scissors-btn">Choose</button>
+            </div>
+        </div>
+        <div class="results">
+            <h2>Results:</h2>
+            <div class="players">
+                <h2>Player: <span id="player-points">0</span></h2>
+                <h2>Computer: <span id="computer-points">0</span></h2>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="https://www.flaticon.com/free-icons/rock" title="rock icons">Rock icons created by Icongeek26 - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/origami" title="origami icons">Origami icons created by Icongeek26 - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/scissors" title="scissors icons">Scissors icons created by Gulraiz - Flaticon</a>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>

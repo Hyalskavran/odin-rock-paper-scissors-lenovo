@@ -80,5 +80,12 @@ let game = (playerSelection, computerSelection) => {
     }
 }
 
+// Get all buttons from the DOM 
+const rockBtn = document.querySelector('#rock-btn')
+const paperBtn = document.querySelector('#paper-btn')
+const scissorsBtn = document.querySelector('#scissors-btn')
+
+
+
 // Run the game!
-game(getPlayerChoice, getComputerChoice)
+// game(getPlayerChoice, getComputerChoice)

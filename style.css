@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.title > * {
+    margin: 0;
+    padding: 0.25rem;
+}
+
+.title h1 {
+    font-weight: 900;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.choices > * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2.5rem;
+}
+
+.choices button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: none;
+    background-color: #3498db;
+    border-radius: 8px;
+    line-height: normal;
+    outline: none;
+    font-weight: 700;
+}
+
+.choices button:hover {
+    background-color: #2980b9;
+    cursor: pointer;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: #2980b9; /* Darker blue color */
+    /* padding: 1rem 5rem; */
+    text-align: center;
+    border-radius: 10px; /* Rounded corners */
+}
+
+.results h2 {
+    margin: 10px 0;
+}
+
+.players {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.players h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.results span {
+    color: #e74c3c; /* Red color for highlighting */
+    font-weight: 900;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+    position: sticky;
+    width: 100%;
+    padding: 1rem;
+}
