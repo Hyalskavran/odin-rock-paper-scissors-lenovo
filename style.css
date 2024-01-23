@@ -67,37 +67,40 @@ body {
     cursor: pointer;
 }
 
-.results {
+.logic {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
-    color: white;
-    background-color: #2980b9; /* Darker blue color */
-    /* padding: 1rem 5rem; */
+    justify-content: center;
     text-align: center;
-    border-radius: 10px; /* Rounded corners */
 }
 
-.results h2 {
-    margin: 10px 0;
-}
-
-.players {
+.hands {
     display: flex;
-    /* flex-direction: column; */
-    justify-content: space-between;
-    padding: 0 1rem;
+    flex-direction: row;
 }
 
-.players h2 {
-    margin-left: 10px;
-    margin-right: 10px;
+.hands > * {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
 }
 
-.results span {
-    color: #e74c3c; /* Red color for highlighting */
-    font-weight: 900;
+.results {
+    margin: 1rem;
+}
+
+.scores {
+    display: flex;
+}
+
+.scores > * {
+    margin: 1rem;
+}
+
+.blue {
+    color: #3498db;
+    font-weight: 700;
 }
 
 footer {
